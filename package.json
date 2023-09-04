@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/flydecisive/node-backend/issues"
   },
-  "homepage": "https://github.com/flydecisive/node-backend#readme"
+  "homepage": "https://github.com/flydecisive/node-backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
